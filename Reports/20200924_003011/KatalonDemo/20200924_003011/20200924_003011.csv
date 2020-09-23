@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KatalonDemo,Chrome 85.0.4183.121,,,2020-09-24 00:30:22,2020-09-24 00:31:11,48.622s,FAILED
+,,,,,,,
+Test Cases/TestLogin_KatalonDemoCura,Chrome 85.0.4183.121,,,2020-09-24 00:30:23,2020-09-24 00:31:11,47.807s,FAILED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-09-24 00:30:24,2020-09-24 00:30:29,5.136s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 85.0.4183.121,,,2020-09-24 00:30:29,2020-09-24 00:30:33,3.417s,PASSED
+"click(findTestObject(""Page_KatalonDemo/i_CURA Healthcare_fa fa-bars""))",Chrome 85.0.4183.121,,,2020-09-24 00:30:33,2020-09-24 00:30:33,0.764s,PASSED
+"click(findTestObject(""Page_KatalonDemo/a_Login""))",Chrome 85.0.4183.121,,,2020-09-24 00:30:33,2020-09-24 00:30:35,1.721s,PASSED
+"setText(findTestObject(""Page_KatalonDemo/input_Username_username""), ""John Doe"")",Chrome 85.0.4183.121,,,2020-09-24 00:30:35,2020-09-24 00:30:36,1.056s,PASSED
+"setEncryptedText(findTestObject(""Page_KatalonDemo/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 85.0.4183.121,,,2020-09-24 00:30:36,2020-09-24 00:30:37,0.848s,PASSED
+"click(findTestObject(""Page_KatalonDemo/button_Login""))",Chrome 85.0.4183.121,,,2020-09-24 00:30:37,2020-09-24 00:30:38,1.223s,PASSED
+"verifyElementPresent(findTestObject(""Page_KatalonDemo/input_Password_password""), 0)",Chrome 85.0.4183.121,,,2020-09-24 00:30:38,2020-09-24 00:31:11,32.232s,FAILED
